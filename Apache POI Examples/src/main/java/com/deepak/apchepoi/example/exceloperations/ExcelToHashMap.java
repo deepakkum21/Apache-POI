@@ -17,7 +17,7 @@ public class ExcelToHashMap {
 
 	public static void main(String[] args) throws IOException {
 		
-		FileInputStream fis=new FileInputStream(".\\datafiles\\student.xlsx");
+		FileInputStream fis=new FileInputStream("src\\main\\resources\\datafiles\\student.xlsx");
 		XSSFWorkbook workbook=new XSSFWorkbook(fis);
 		XSSFSheet sheet=workbook.getSheet("Student data");
 		

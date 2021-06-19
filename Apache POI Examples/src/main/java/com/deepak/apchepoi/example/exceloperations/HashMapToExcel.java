@@ -40,7 +40,7 @@ public class HashMapToExcel {
 		}
 		
 		
-		FileOutputStream fos=new FileOutputStream(".\\datafiles\\student.xlsx");
+		FileOutputStream fos=new FileOutputStream("src\\main\\resources\\datafiles\\student.xlsx");
 		
 		workbook.write(fos);
 		fos.close();
